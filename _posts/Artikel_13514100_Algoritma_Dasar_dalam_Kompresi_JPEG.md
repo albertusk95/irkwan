@@ -79,9 +79,9 @@ Berikut beberapa metode yang digunakan di dalam algoritma JPEG:
 DCT merupakan sebuah metode untuk memisahkan file gambar menjadi bagian-bagian frekuensi yang berbeda dimana frekuensi kurang penting akan dibuang melalui kuantisasi dan frekuensi penting digunakan untuk mengambil gambar selama dekompresi. 
 
 > **Beberapa keuntungan yang dimiliki metode DCT:**
-(1) DCT sudah dapat diimplementasikan dalam sirkuit terpadu, 
-(2) DCT memiliki kemampuan untuk mengelompokkan semua informasi dalam koefisien yang paling sedikit, 
-(3) DCT dapat meminimalkan penampilan blok seperti yang disebut memblokir artefak yang terjadi ketika batas antara sub-gambar menjadi terlihat.
+> (1) DCT sudah dapat diimplementasikan dalam sirkuit terpadu, 
+> (2) DCT memiliki kemampuan untuk mengelompokkan semua informasi dalam koefisien yang paling sedikit, 
+> (3) DCT dapat meminimalkan penampilan blok seperti yang disebut memblokir artefak yang terjadi ketika batas antara sub-gambar menjadi terlihat.
 
 Transformasi DCT dalam bentuk dua dimensi direpresentasikan dalam persamaan sebagai berikut:
 
@@ -145,12 +145,16 @@ Akhir dari algoritma JPEG ini adalah menempatkan unsur-unsur kotak kecil koefisi
 
 > Selain itu, berdasarkan prosedur utama dalam algoritma JPEG yang mengimplementasikan teknik matriks DCT, kuantisasi, dan _Entropy Encoding_ dapat dilihat bahwa dengan membuat beberapa variasi nilai yang dijadikan sebagai pengali matriks, dapat mengubah kualitas dan ukuran file gambar.
 
+---
+
 ### <a name="references"></a> **Referensi**
 
-> (1) http://www.ams.org/samplings/feature-column/fcarc-image-compression
+> (1) Zhang, Zhihua and Naoki Saito.  High-dimensional data compression via PHLCT. 
+> https://www.math.ucdavis.edu/~saito/publications/saito_phlcthd.pdf
 
-> (2) Zhang, Zhihua and Naoki Saito.  High-dimensional data compression via PHLCT. https://www.math.ucdavis.edu/~saito/publications/saito_phlcthd.pdf
+> (2) Austin,  David.   Image  Compression:  Seeing  What's  Not  There. 
+> http://www.ams.org/samplings/feature-column/fcarc-image-compression
 
-> (3) Austin,  David.   Image  Compression:  Seeing  What's  Not  There. http://www.ams.org/samplings/feature-column/fcarc-image-compression
+> (3) http://www.whydomath.org/node/wavlets/basicjpg.html
 
-
+> (4) http://www.prepressure.com/library/compression-algorithm/jpeg
