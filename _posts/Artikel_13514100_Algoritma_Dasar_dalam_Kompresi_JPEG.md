@@ -6,7 +6,27 @@ summary:    Silakan klik pada judul untuk detailnya
 categories: tugas
 ---
 
+---
 
+**Oleh: Albertus Kelvin / 13514100**
+
+---
+
+---
+
+### Daftar isi
+
+> * [Bagaimana solusinya?](#bagaimana_solusi)
+> * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>[Apa itu kompresi file?](#apa_itu_kompresi)
+> * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>[Apa itu kompresi JPEG?](#apa_itu_jpeg)
+> * [Algoritma JPEG](#algoritma_jpeg)
+> * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>[_Discrete Cosine Transform (DCT)_](#dct)
+> * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>[Kuantisasi](#kuantisasi)
+> * &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>[_Entropi Encoding_](#entropi_encoding)
+> * [Kesimpulan](#kesimpulan)
+> * [Referensi](#referensi)
+
+---
 
 Pernahkah Anda mengalami kesulitan saat ingin mengirim file? 
 
@@ -79,9 +99,9 @@ Berikut beberapa metode yang digunakan di dalam algoritma JPEG:
 DCT merupakan sebuah metode untuk memisahkan file gambar menjadi bagian-bagian frekuensi yang berbeda dimana frekuensi kurang penting akan dibuang melalui kuantisasi dan frekuensi penting digunakan untuk mengambil gambar selama dekompresi. 
 
 > **Beberapa keuntungan yang dimiliki metode DCT:**
-> (1) DCT sudah dapat diimplementasikan dalam sirkuit terpadu, 
-> (2) DCT memiliki kemampuan untuk mengelompokkan semua informasi dalam koefisien yang paling sedikit, 
-> (3) DCT dapat meminimalkan penampilan blok seperti yang disebut memblokir artefak yang terjadi ketika batas antara sub-gambar menjadi terlihat.
+> * (1) DCT sudah dapat diimplementasikan dalam sirkuit terpadu, 
+> * (2) DCT memiliki kemampuan untuk mengelompokkan semua informasi dalam koefisien yang paling sedikit, 
+> * (3) DCT dapat meminimalkan penampilan blok seperti yang disebut memblokir artefak yang terjadi ketika batas antara sub-gambar menjadi terlihat.
 
 Transformasi DCT dalam bentuk dua dimensi direpresentasikan dalam persamaan sebagai berikut:
 
@@ -147,7 +167,7 @@ Akhir dari algoritma JPEG ini adalah menempatkan unsur-unsur kotak kecil koefisi
 
 ---
 
-### <a name="references"></a> **Referensi**
+### <a name="referensi"></a> **Referensi**
 
 > (1) Zhang, Zhihua and Naoki Saito.  High-dimensional data compression via PHLCT. 
 > https://www.math.ucdavis.edu/~saito/publications/saito_phlcthd.pdf
