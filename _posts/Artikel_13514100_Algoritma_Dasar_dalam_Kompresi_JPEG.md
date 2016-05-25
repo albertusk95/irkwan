@@ -99,9 +99,9 @@ Berikut beberapa metode yang digunakan di dalam algoritma JPEG:
 DCT merupakan sebuah metode untuk memisahkan file gambar menjadi bagian-bagian frekuensi yang berbeda dimana frekuensi kurang penting akan dibuang melalui kuantisasi dan frekuensi penting digunakan untuk mengambil gambar selama dekompresi. 
 
 > **Beberapa keuntungan yang dimiliki metode DCT:**
-> * (1) DCT sudah dapat diimplementasikan dalam sirkuit terpadu, 
-> * (2) DCT memiliki kemampuan untuk mengelompokkan semua informasi dalam koefisien yang paling sedikit, 
-> * (3) DCT dapat meminimalkan penampilan blok seperti yang disebut memblokir artefak yang terjadi ketika batas antara sub-gambar menjadi terlihat.
+> * DCT sudah dapat diimplementasikan dalam sirkuit terpadu, 
+> * DCT memiliki kemampuan untuk mengelompokkan semua informasi dalam koefisien yang paling sedikit, 
+> * DCT dapat meminimalkan penampilan blok seperti yang disebut memblokir artefak yang terjadi ketika batas antara sub-gambar menjadi terlihat.
 
 Transformasi DCT dalam bentuk dua dimensi direpresentasikan dalam persamaan sebagai berikut:
 
